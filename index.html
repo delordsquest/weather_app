@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    <header>
+    <h1>Today's Weather</h1>
+    </header>
+    <main>
+    <!-- Container -->
+    <section class="weather-container">
+    <!-- Image -->
+    <figure class="weather-img-container">
+    <img id="weather-image" src="" alt="" class="weather-img" />
+    </figure>
+    
+    <!-- Summary -->
+    <h1 class="weather-summary" id="weather-summary">--</h1>
+    
+    <!-- Footer -->
+    <footer class="temps">
+    <div>
+    <h3 class="temp-title">Max Temp :</h3>
+    <h4 class="temp-value"><span id="max-temp"></span> -<sup>0</sup>C</h4>
+    </div>
+    <div>
+        <h3 class="temp-title">Min Temp :</h3>
+        <h4 class="temp-value"><span id="min-temp"></span> -<sup>0</sup>C</h4>
+        </div>
+    </footer>
+    </section>
+    </main>
+    <script src="app.js" defer="true" ></script>
+</body>
+</html>
